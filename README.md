@@ -1,1 +1,1 @@
-# SSG site
+# AI blog
