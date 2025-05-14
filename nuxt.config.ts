@@ -68,6 +68,20 @@ export default defineNuxtConfig({
                     href: 'https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap',
                 },
             ],
+            script: [
+                {
+                    src: 'https://www.googletagmanager.com/gtag/js?id=G-QEX7MTBJZ8',
+                    async: true,
+                }, {
+                    children: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-QEX7MTBJZ8');
+                `,
+                    type: 'text/javascript',
+                },
+            ],
         },
     },
 
