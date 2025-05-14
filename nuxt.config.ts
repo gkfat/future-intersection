@@ -45,7 +45,7 @@ export default defineNuxtConfig({
                 },
                 {
                     property: 'og:image',
-                    content: 'https://ssg-site.pages.dev/ogimage.png',
+                    content: 'https://pub-1223fea72cbd4afca686b8c67c14f6da.r2.dev/ogimage.png',
                 },
             ],
             link: [
