@@ -27,11 +27,11 @@
     </v-container>
 </template>
 <script lang="ts" setup>
-import type { ArticleSnapshot } from '~/types/article';
-
-import ArticleCard from './components/articleCard.vue';
+import ArticleCard from './components/ArticleCard.vue';
 import { useDisplay } from 'vuetify';
-import FeatureArticleCard from './components/featureArticleCard.vue';
+import FeatureArticleCard from './components/FeatureArticleCard.vue';
+import { computed } from 'vue';
+import { useArticleSnapshots } from '@/composables/useArticleSnapshots';
 
 const { xs } = useDisplay();
 
@@ -39,16 +39,5 @@ const getWidth = computed(() => {
     return xs ? '100%' : '60%';
 });
 
-const { data: articles } = await useAsyncData<ArticleSnapshot[]>('articles', () =>
-    queryContent<ArticleSnapshot>('/articles') // 查詢 /src/content/articles/ 下的所有文章
-        .where({ _extension: 'md' }) // 限定為 markdown 檔
-        .sort({ date: -1 }) // 依照日期新到舊排序
-        .only([
-            '_path',
-            'title',
-            'date',
-            'description',
-        ])
-        .find(),
-);
+const { articles } = useArticleSnapshots();
 </script>

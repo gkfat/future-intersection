@@ -1,13 +1,18 @@
 {
-  // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
+    "baseUrl": "./",
     "types": [
-      "vuetify",
-      "@nuxt/types"
+        "node",
+        "vuetify"
     ],
+    "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "module": "ESNext",
-    "target": "ESNext"
+    "target": "ESNext",
+    "paths": {
+      "@/*": [
+          "./src/*"
+      ]
+  }
   }
 }

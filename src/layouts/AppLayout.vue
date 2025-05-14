@@ -13,10 +13,9 @@
                         class="opacity-100"
                         size="x-large"
                     >
-                  
                         <template #prepend>
                             <v-img
-                                :src="LogoImg"
+                                src="/logo.png"
                                 width="40"
                                 height="40"
                                 aspect-ratio="1/1"
@@ -29,12 +28,12 @@
                     </v-btn>
                 </template>
             </v-app-bar>
-            <slot />
+            
+            <router-view />
         </v-main>
     </v-app>
 </template>
 <script lang="ts" setup>
-import LogoImg from '../assets/images/logo.png';
 </script>
 <style lang="scss" scoped>
 .gradient-background {

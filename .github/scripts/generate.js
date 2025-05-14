@@ -17,7 +17,7 @@ if (!prompt) {
 }
 
 const today = new Date().toISOString().slice(0, 10);
-const contentDir = path.resolve(__dirname, '../../src/content/articles');
+const contentDir = path.resolve(__dirname, '../../public/articles');
 
 /**
  * 若相同日期則產生流水號
@@ -36,6 +36,7 @@ function getUniqueFilename(baseDir, date) {
 }
 
 const filename = getUniqueFilename(contentDir, today);
+const basename = path.basename(filename);
 
 const response = await openai.chat.completions.create({
     model: 'gpt-4o',
@@ -48,7 +49,6 @@ const response = await openai.chat.completions.create({
 });
 
 const markdown = response.choices[0].message.content ?? '';
-
 const h1Match = markdown.match(/^# (.+)$/m);
 const title = h1Match?.[1] || `未命名文章 (${today})`;
 
@@ -61,10 +61,49 @@ if (h1Match) {
     description = paragraphMatch?.[1].replace(/\n/g, ' ').trim() || '';
 }
 
+// 寫入 Markdown 檔案
 fs.mkdirSync(path.dirname(filename), { recursive: true });
 fs.writeFileSync(
     filename,
-    `---\ntitle: ${title}\ndate: ${today}\nmeta:\n  description: ${JSON.stringify(description)}\n---\n\n${markdown}`,
+    `---\ntitle: ${title}\ndate: ${new Date().toISOString()}\ndescription: ${JSON.stringify(description)}\n---\n\n${markdown}`,
 );
 
-console.log(`Generated: ${filename}`);
+console.log(`Generated: ${basename}`);
+
+// ✨ 更新 index.json
+const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.md'));
+
+const snapshots = files.map((f) => {
+    const raw = fs.readFileSync(path.join(contentDir, f), 'utf-8');
+    const frontmatterMatch = raw.match(/^---\n([\s\S]*?)\n---/);
+    const frontmatter = frontmatterMatch?.[1] || '';
+
+    const data = Object.fromEntries(
+        frontmatter
+            .split('\n')
+            .map(line => line.trim())
+            .filter(Boolean)
+            .map(line => {
+                const [key, ...rest] = line.split(':');
+                let value = rest.join(':').trim();
+                if (value.startsWith('"') || value.startsWith('\'')) {
+                    value = value.slice(1, -1);
+                }
+                return [key.trim(), value];
+            }),
+    );
+
+    // 將 date 轉為 ISO 字串（若原本就不是）
+    const isoDate = new Date(data.date).toISOString();
+
+    return {
+        filename: f,
+        title: data.title || '未命名',
+        date: isoDate,
+        description: data.description || '',
+    };
+});
+
+fs.writeFileSync(path.join(contentDir, 'index.json'), JSON.stringify(snapshots, null, 2));
+
+console.log('📦 index.json updated.');

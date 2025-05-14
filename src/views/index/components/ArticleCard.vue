@@ -9,7 +9,7 @@
         </v-card-title>
 
         <v-card-subtitle>
-            {{ article.date }}
+            {{ timeFormat(article.date) }}
         </v-card-subtitle>
 
         <v-card-text class="flex-grow-1">
@@ -25,19 +25,21 @@
             >
                 Read More
 
-                <v-icon icon="mdi-chevron-right"/>
+                <v-icon icon="mdi-chevron-right" />
             </v-btn>
         </v-card-actions>
     </v-card>
 </template>
 <script lang="ts" setup>
-import type { ArticleSnapshot } from '~/types/article';
+import type { ArticleSnapshot } from '@/types/article';
+import { useRouter } from 'vue-router';
+import { timeFormat } from '@/utils/time';
 
 const router = useRouter();
 
 defineProps<{ article: ArticleSnapshot }>();
 
 function toArticle(path: string) {
-    router.push(path);
+    router.push(`/articles/${path}`);
 }
 </script>
