@@ -1,0 +1,3 @@
+build_command: pnpm generate
+build_output_directory: .output/public
+node_version: 22

@@ -1,0 +1,37 @@
+name: Generate Daily Article
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # 每天 UTC+1 執行一次，可調整
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Generate article
+        run: node .github/scripts/generate.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ARTICLE_PROMPT: ${{ secrets.ARTICLE_PROMPT }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "chore: add new article $(date +'%Y-%m-%d')" || echo "No changes"
+          git push
