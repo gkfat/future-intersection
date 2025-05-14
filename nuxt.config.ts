@@ -3,6 +3,7 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     srcDir: 'src/',
+    ssr: false,
 
     compatibilityDate: '2024-11-01',
     devtools: { enabled: false },
@@ -44,7 +45,7 @@ export default defineNuxtConfig({
                 },
                 {
                     property: 'og:image',
-                    content: 'https://ssg-site.pages.dev/ogimage',
+                    content: 'https://ssg-site.pages.dev/ogimage.png',
                 },
             ],
             link: [
