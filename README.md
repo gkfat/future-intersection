@@ -1,1 +1,1 @@
-# AI blog
+# Future Intersection
