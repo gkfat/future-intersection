@@ -1,7 +1,6 @@
 <template>
     <v-container
-        :width="getWidth"
-        class="py-10"
+        class="articles-container py-10"
     >
         <v-row
             v-if="articles?.length"
@@ -28,16 +27,17 @@
 </template>
 <script lang="ts" setup>
 import ArticleCard from './components/ArticleCard.vue';
-import { useDisplay } from 'vuetify';
 import FeatureArticleCard from './components/FeatureArticleCard.vue';
-import { computed } from 'vue';
 import { useArticleSnapshots } from '@/composables/useArticleSnapshots';
-
-const { xs } = useDisplay();
-
-const getWidth = computed(() => {
-    return xs ? '100%' : '60%';
-});
 
 const { articles } = useArticleSnapshots();
 </script>
+<style lang="scss" setup>
+.articles-container {
+    width: 95%;
+
+    @media (min-width: 768px) {
+        width: 70%;
+    }
+}
+</style>
