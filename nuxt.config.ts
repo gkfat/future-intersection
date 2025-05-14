@@ -4,6 +4,9 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 export default defineNuxtConfig({
     srcDir: 'src/',
     ssr: true,
+    nitro: {
+        preset: 'static', output: { dir: 'dist' }, 
+    },
 
     compatibilityDate: '2024-11-01',
     devtools: { enabled: false },
