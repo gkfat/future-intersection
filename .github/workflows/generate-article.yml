@@ -29,11 +29,13 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ARTICLE_PROMPT: ${{ secrets.ARTICLE_PROMPT }}
-          
+
       - name: Commit and push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "GitHub Action"
           git config user.email "actions@github.com"
           git add .
           git commit -m "chore: add new article $(date +'%Y-%m-%d')" || echo "No changes"
-          git push
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
