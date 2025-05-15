@@ -2,7 +2,7 @@ name: Generate Daily Article
 
 on:
   schedule:
-    - cron: '0 1 * * *' # 每天 UTC+1 執行一次，可調整
+    - cron: '0 0 * * *' # 每天 8 AM 執行一次
   workflow_dispatch:
 
 jobs:
@@ -19,6 +19,9 @@ jobs:
           node-version: '22'
           cache: 'pnpm'
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
         run: pnpm install
 
@@ -26,7 +29,6 @@ jobs:
         run: node .github/scripts/generate.js
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ARTICLE_PROMPT: ${{ secrets.ARTICLE_PROMPT }}
 
       - name: Commit and push
         run: |
