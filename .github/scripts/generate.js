@@ -13,7 +13,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const contentDir = path.resolve(__dirname, '../../public/articles');
 const today = new Date().toISOString().slice(0, 10);
 
-const promptBase = fs.readFileSync(path.resolve(__dirname, '../../prompt.txt'), 'utf-8').trim();
+// 使用 github actions secret 或本地檔案
+const promptBase =  process.env.ARTICLE_PROMPT?.trim() || fs.readFileSync(path.resolve(__dirname, '../../prompt.txt'), 'utf-8').trim();
 
 if (!promptBase) {
     console.error('❌ 請設定 ARTICLE_PROMPT 環境變數');

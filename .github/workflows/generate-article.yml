@@ -28,7 +28,8 @@ jobs:
         run: node .github/scripts/generate.js
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-
+          ARTICLE_PROMPT: ${{ secrets.ARTICLE_PROMPT }}
+          
       - name: Commit and push
         run: |
           git config user.name "GitHub Action"
