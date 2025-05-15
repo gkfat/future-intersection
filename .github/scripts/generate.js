@@ -7,17 +7,28 @@ import { fileURLToPath } from 'url';
 
 dotenv.config();
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// vars
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-const prompt = process.env.ARTICLE_PROMPT;
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const contentDir = path.resolve(__dirname, '../../public/articles');
+const today = new Date().toISOString().slice(0, 10);
 
-if (!prompt) {
+const promptBase = fs.readFileSync(path.resolve(__dirname, '../../prompt.txt'), 'utf-8').trim();
+
+if (!promptBase) {
     console.error('❌ 請設定 ARTICLE_PROMPT 環境變數');
     process.exit(1);
 }
 
-const today = new Date().toISOString().slice(0, 10);
-const contentDir = path.resolve(__dirname, '../../public/articles');
+// 取得標題列表
+const indexPath = path.resolve(__dirname, '../../public/articles/index.json');
+const existingTitles = fs.existsSync(indexPath)
+    ? JSON.parse(fs.readFileSync(indexPath, 'utf-8')).map(entry => entry.title).filter(Boolean)
+    : [];
+
+const titleList = existingTitles.map(title => `- ${title}`).join('\n');
+
+const prompt = `${promptBase}\n\n${titleList}`;
 
 /**
  * 若相同日期則產生流水號
