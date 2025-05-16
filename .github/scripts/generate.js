@@ -35,20 +35,22 @@ const prompt = `${promptBase}\n\n${titleList}`;
  * 若相同日期則產生流水號
  * @param {string} baseDir
  * @param {string} date
+ * @param {string} engFilename
  */
-function getUniqueFilename(baseDir, date) {
+function getUniqueFilename(baseDir, date, engFilename) {
     let index = 0;
     let filename;
     do {
-        const suffix = index === 0 ? '' : `-${index}`;
-        filename = path.join(baseDir, `${date}${suffix}.md`);
+        const suffix = engFilename
+            ? `${engFilename}${index === 0 ? '' : `-${index}`}`
+            : `${index === 0 ? '' : `-${index + 1}`}`;
+
+        filename = path.join(baseDir, `${date}${suffix ? '-' + suffix : ''}.md`);
         index++;
     } while (fs.existsSync(filename));
+
     return filename;
 }
-
-const filename = getUniqueFilename(contentDir, today);
-const basename = path.basename(filename);
 
 const response = await openai.chat.completions.create({
     model: 'gpt-4o',
@@ -62,7 +64,11 @@ const response = await openai.chat.completions.create({
 
 const markdown = response.choices[0].message.content ?? '';
 const h1Match = markdown.match(/^# (.+)$/m);
+const filenameMatch = markdown.match(/^filename:\s*([a-z0-9\-]+)$/m);
+const engFilename = filenameMatch?.[1] ?? '';
 const title = h1Match?.[1] || `未命名文章 (${today})`;
+const filename = getUniqueFilename(contentDir, today, engFilename);
+const basename = path.basename(filename);
 
 // 解析 description：尋找 H1 之後第一個非空段落
 let description = '';
@@ -75,9 +81,10 @@ if (h1Match) {
 
 // 寫入 Markdown 檔案
 fs.mkdirSync(path.dirname(filename), { recursive: true });
+const cleanedMarkdown = markdown.replace(/^filename:\s*.*$/m, '').trim();
 fs.writeFileSync(
     filename,
-    `---\ntitle: ${title}\ndate: ${new Date().toISOString()}\ndescription: ${JSON.stringify(description)}\n---\n\n${markdown}`,
+    `---\ntitle: ${title}\ndate: ${new Date().toISOString()}\ndescription: ${JSON.stringify(description)}\n---\n\n${cleanedMarkdown}`,
 );
 
 console.log(`Generated: ${basename}`);
@@ -119,3 +126,38 @@ const snapshots = files.map((f) => {
 fs.writeFileSync(path.join(contentDir, 'index.json'), JSON.stringify(snapshots, null, 2));
 
 console.log('📦 index.json updated.');
+
+// 更新 sitemap.xml
+const siteBaseUrl = 'https://future-intersection.pages.dev';
+const sitemapPath = path.resolve(contentDir, '../sitemap.xml');
+
+const urls = snapshots.map(entry => {
+    const slug = entry.filename.replace(/\.md$/, '');
+    return `<url><loc>${siteBaseUrl}/articles/${slug}</loc><lastmod>${entry.date}</lastmod></url>`;
+});
+
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.join('\n')}
+</urlset>
+`;
+
+fs.writeFileSync(sitemapPath, sitemap);
+console.log('🗺 sitemap.xml updated.');
+
+// 通知搜尋引擎
+import https from 'https';
+const pingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(siteBaseUrl + '/sitemap.xml')}`;
+
+https.get(pingUrl, (res) => {
+    if (res.statusCode === 200) {
+        console.log(`🔔 Google ping success: ${res.statusCode}`);
+        process.exit(0);
+    } else {
+        console.warn(`⚠️ Google ping returned status: ${res.statusCode}`);
+        process.exit(0); // 或 process.exit(1) 取決於你是否當錯誤處理
+    }
+}).on('error', (err) => {
+    console.error('❌ Sitemap ping failed:', err.message);
+    process.exit(1);
+});
