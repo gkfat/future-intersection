@@ -1,31 +1,27 @@
 <template>
     <v-card
         v-if="article"
-        elevation="0"
-        color="transparent"
-        class="article-card mx-auto mb-5 h-100"
+        elevation="10"
+        rounded="xl"
+        class="article-card mx-auto py-5 mb-10"
     >
-        <v-btn
-            class="mb-3"
-            color="primary"
-            prepend-icon="mdi-chevron-left"
-            to="/"
-        >
-            Back
-        </v-btn>
-
-        <v-card-title class="text-h4 font-weight-bold">
-            {{ article.title }}
+        <v-card-title>
+            <v-btn
+                class="mb-3"
+                color="primary"
+                prepend-icon="mdi-chevron-left"
+                to="/"
+            >
+                Back
+            </v-btn>
         </v-card-title>
+
         <v-card-subtitle>
             {{ timeFormat(article.date) }}
         </v-card-subtitle>
-        <v-card-text>
-            {{ article.description }}
-        </v-card-text>
         
         <v-card-text
-            class="pb-10 overflow-y-auto bg-transparent markdown-body"
+            class="h-100 px-10 pb-10 overflow-y-auto bg-transparent markdown-body"
         >
             <div
                 v-html="renderHtml"
@@ -90,15 +86,15 @@ watch(
     @media (min-width: 768px) {
         width: 70%;
     }
+
+    @media (min-width: 1024px) {
+        width: 50%;
+    }
 }
 
 :deep(.markdown-body) {
     h1,h2,h3,h4,h5,h6 {
         margin: 50px 0 30px;
-
-        a {
-            color: #252525;
-        }
     }
 }
 </style>
