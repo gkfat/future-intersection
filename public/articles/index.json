@@ -76,5 +76,11 @@
     "title": "探索 Node.js 的應用潛力",
     "date": "2025-05-16T01:21:27.200Z",
     "description": "Node.js 在現代網路開發中扮演著關鍵角色，提供了高效、可擴展的伺服器端解決方案。它的非同步事件驅動模型，使之成為構建快速反應應用的理想選擇。本文將深入探討 Node.js 的進階應用，並提供實用的範例，幫助開發者更好地掌握這項技術。"
+  },
+  {
+    "filename": "2025-05-17.md",
+    "title": "從 JavaScript 到 TypeScript 的旅程",
+    "date": "2025-05-17T01:19:36.595Z",
+    "description": "在現代網頁開發中，JavaScript 是不可或缺的技術。然而，隨著專案的複雜度增加，維護和擴展傳統 JavaScript 程式碼的挑戰也逐漸顯現。TypeScript 作為 JavaScript 的超集，提供了強型別和更多語法特性，有效提高了開發效率和程式碼的可維護性。本文將引領讀者探索 JavaScript 到 TypeScript 的轉變過程，藉此提升開發技能。"
   }
 ]
