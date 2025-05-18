@@ -2,9 +2,9 @@ name: Generate Daily Article
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # UTC 0:00  -> 台灣 08:00
-    - cron: '0 8 * * *'   # UTC 8:00  -> 台灣 16:00
-    - cron: '0 15 * * *'  # UTC 15:00 -> 台灣 23:00
+    - cron: '30 23 * * *'   # UTC 23:30 -> 台灣 07:30
+    - cron: '30 7 * * *'    # UTC 07:30 -> 台灣 15:30
+    - cron: '30 14 * * *'   # UTC 14:30 -> 台灣 22:30
   workflow_dispatch:
 
 jobs:
@@ -39,5 +39,5 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "actions@github.com"
           git add .
-          git commit -m "chore: add new article $(date +'%Y-%m-%d')" || echo "No changes"
+          git commit -m "chore: add new article $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
