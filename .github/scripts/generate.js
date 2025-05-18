@@ -144,20 +144,3 @@ ${urls.join('\n')}
 
 fs.writeFileSync(sitemapPath, sitemap);
 console.log('🗺 sitemap.xml updated.');
-
-// 通知搜尋引擎
-import https from 'https';
-const pingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(siteBaseUrl + '/sitemap.xml')}`;
-
-https.get(pingUrl, (res) => {
-    if (res.statusCode === 200) {
-        console.log(`🔔 Google ping success: ${res.statusCode}`);
-        process.exit(0);
-    } else {
-        console.warn(`⚠️ Google ping returned status: ${res.statusCode}`);
-        process.exit(0); // 或 process.exit(1) 取決於你是否當錯誤處理
-    }
-}).on('error', (err) => {
-    console.error('❌ Sitemap ping failed:', err.message);
-    process.exit(1);
-});
