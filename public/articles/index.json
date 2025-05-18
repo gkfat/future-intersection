@@ -94,5 +94,11 @@
     "title": "從 JavaScript 到 TypeScript 的旅程",
     "date": "2025-05-17T01:19:36.595Z",
     "description": "在現代網頁開發中，JavaScript 是不可或缺的技術。然而，隨著專案的複雜度增加，維護和擴展傳統 JavaScript 程式碼的挑戰也逐漸顯現。TypeScript 作為 JavaScript 的超集，提供了強型別和更多語法特性，有效提高了開發效率和程式碼的可維護性。本文將引領讀者探索 JavaScript 到 TypeScript 的轉變過程，藉此提升開發技能。"
+  },
+  {
+    "filename": "2025-05-18-mastering-advanced-javascript.md",
+    "title": "掌握進階 JavaScript 技巧",
+    "date": "2025-05-18T07:35:01.145Z",
+    "description": "在現代網頁開發中，JavaScript 扮演著不可或缺的角色。從簡單的互動功能到複雜的應用程序，JavaScript 的靈活性與強大功能讓開發者愛不釋手。本篇文章將深入探討 JavaScript 的進階技巧，幫助你在開發過程中更得心應手，提升應用的性能與可維護性。"
   }
 ]
