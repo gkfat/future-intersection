@@ -114,6 +114,12 @@
     "description": "TypeScript 是 JavaScript 的超集，為開發者提供了強大的型別系統和先進的工具支持。這些功能不僅提升了代碼的可讀性和可維護性，還能有效地降低錯誤發生的機率。本文將深入探討 TypeScript 的進階概念，從型別系統、泛型到裝飾器的應用，幫助開發者更好地掌握這門語言，寫出更健壯的代碼。"
   },
   {
+    "filename": "2025-05-19-bridging-the-web-with-nodejs.md",
+    "title": "用 Node.js 連接網路世界",
+    "date": "2025-05-19T14:43:57.387Z",
+    "description": "在現代 Web 開發中，Node.js 扮演著至關重要的角色。它不僅僅是一個伺服器端的 JavaScript 執行環境，更是開發者用來構建高效、可擴展應用的利器。對於初學者來說，瞭解 Node.js 的基本概念以及如何使用它來搭建簡單的網頁應用，是進入 Web 開發世界的重要一步。本文將引導讀者了解 Node.js 的核心功能及其在 Web 開發中的應用。"
+  },
+  {
     "filename": "2025-05-19-overcoming-developer-challenges.md",
     "title": "開發者挑戰的克服之道",
     "date": "2025-05-19T07:37:43.741Z",
