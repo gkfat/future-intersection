@@ -190,5 +190,11 @@
     "title": "初學者掌握 JavaScript 的指南",
     "date": "2025-05-23T07:37:25.622Z",
     "description": "JavaScript 是當今 Web 開發中不可或缺的語言之一，對於初學者來說，是一個理想的起點。它不僅可以用於前端開發，還能在 Node.js 的幫助下用於後端程式設計。本篇文章旨在幫助初學者掌握 JavaScript 的基礎知識，並提供一些實用的技巧和資源，讓學習之路更加順利。"
+  },
+  {
+    "filename": "2025-05-23-typescript-for-beginners.md",
+    "title": "TypeScript 入門指南",
+    "date": "2025-05-23T14:42:10.312Z",
+    "description": "TypeScript 是一種基於 JavaScript 的強型別編程語言，為開發者提供了更強大的工具和功能，讓代碼更加安全和高效。這篇文章旨在為剛開始接觸 TypeScript 的讀者介紹其基礎概念，以便他們能夠更好地理解和應用這種語言。本指南將帶領你從基礎開始，一步步深入了解 TypeScript 的獨特之處。"
   }
 ]
