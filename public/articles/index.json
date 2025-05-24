@@ -204,6 +204,12 @@
     "description": "TypeScript 是一種基於 JavaScript 的強型別編程語言，為開發者提供了更強大的工具和功能，讓代碼更加安全和高效。這篇文章旨在為剛開始接觸 TypeScript 的讀者介紹其基礎概念，以便他們能夠更好地理解和應用這種語言。本指南將帶領你從基礎開始，一步步深入了解 TypeScript 的獨特之處。"
   },
   {
+    "filename": "2025-05-24-csharp-modern-application-development.md",
+    "title": "C# 現代應用程式開發",
+    "date": "2025-05-24T23:40:37.901Z",
+    "description": "C# 是一種強大且多功能的程式語言，廣泛應用於現代應用程式的開發中。無論是在桌面應用、Web應用還是雲端服務中，C# 都扮演著關鍵角色。本文將帶領進階讀者深入探索 C# 在現代應用程式開發中的重要性，並探討其在不同平台上的應用，以及如何利用其特性提升開發效率。"
+  },
+  {
     "filename": "2025-05-24-mastering-javascript-closures.md",
     "title": "精通 JavaScript 閉包",
     "date": "2025-05-24T07:34:53.215Z",
