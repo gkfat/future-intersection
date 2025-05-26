@@ -10,7 +10,7 @@ dotenv.config();
 // vars
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const contentDir = path.resolve(__dirname, '../../public/articles');
+const contentDir = path.resolve(__dirname, '../../content/articles');
 const today = new Date().toISOString().slice(0, 10);
 
 // 使用 github actions secret 或本地檔案
@@ -22,7 +22,7 @@ if (!promptBase) {
 }
 
 // 取得標題列表
-const indexPath = path.resolve(__dirname, '../../public/articles/index.json');
+const indexPath = path.resolve(__dirname, '../../content/articles/index.json');
 const existingTitles = fs.existsSync(indexPath)
     ? JSON.parse(fs.readFileSync(indexPath, 'utf-8')).map(entry => entry.title).filter(Boolean)
     : [];
@@ -128,7 +128,7 @@ fs.writeFileSync(path.join(contentDir, 'index.json'), JSON.stringify(snapshots, 
 console.log('📦 index.json updated.');
 
 // 更新 sitemap.xml
-const siteBaseUrl = 'https://future-intersection.pages.dev';
+const siteBaseUrl = 'https://future-intersection.netlify.app';
 const sitemapPath = path.resolve(contentDir, '../sitemap.xml');
 
 const urls = snapshots.map(entry => {
