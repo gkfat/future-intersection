@@ -132,8 +132,8 @@ const siteBaseUrl = 'https://future-intersection.netlify.app';
 const sitemapPath = path.resolve(contentDir, '../sitemap.xml');
 
 const urls = snapshots.map(entry => {
-    const slug = entry.filename.replace(/\.md$/, '');
-    return `<url><loc>${siteBaseUrl}/articles/${slug}</loc><lastmod>${entry.date}</lastmod></url>`;
+    const slug = entry.filename;
+    return `<url><loc>${siteBaseUrl}/content/articles/${slug}</loc><lastmod>${entry.date}</lastmod></url>`;
 });
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
