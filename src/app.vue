@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <router-view />
+        <NuxtLayout />
     </v-app>
 </template>
 <script lang="ts" setup>

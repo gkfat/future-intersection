@@ -9,28 +9,36 @@
                 cols="12"
                 :style="{ minHeight: '350px' }"
             >
-                <FeatureArticleCard :article="articles[0]" />
+                <ArticleCard
+                    :article="articles[0]"
+                    :is-featured="true"
+                />
             </v-col>
 
             <v-col
                 v-for="article in articles?.slice(1)"
-                :key="article._path"
+                :key="article.id"
                 cols="12"
                 sm="6"
                 md="4"
                 variant="outlined"
             >
-                <ArticleCard :article="article" />
+                <ArticleCard
+                    :article="article"
+                    :is-featured="false"
+                />
             </v-col>
         </v-row>
     </v-container>
 </template>
 <script lang="ts" setup>
 import ArticleCard from './components/ArticleCard.vue';
-import FeatureArticleCard from './components/FeatureArticleCard.vue';
-import { useArticleSnapshots } from '@/composables/useArticleSnapshots';
 
-const { articles } = useArticleSnapshots();
+const { data: articles } = await useAsyncData(
+    () => queryCollection('content')
+        .order('date', 'DESC')
+        .all(),
+);
 </script>
 <style lang="scss" setup>
 .articles-container {

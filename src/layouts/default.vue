@@ -29,7 +29,7 @@
                 </template>
             </v-app-bar>
             
-            <router-view />
+            <NuxtPage />
         </v-main>
     </v-app>
 </template>
