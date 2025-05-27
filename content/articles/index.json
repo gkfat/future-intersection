@@ -262,5 +262,11 @@
     "title": "JavaScript 與氣候變遷的交匯",
     "date": "2025-05-27T07:37:39.518Z",
     "description": "JavaScript 作為一種強大的程式語言，常被用於開發各種應用程式。但你是否想過，JavaScript 也能在應對氣候變遷中發揮作用？在這篇文章中，我們將探索 JavaScript 如何透過科技創新和數據分析，為環境保護貢獻一份力量，並引導讀者思考程式開發者在全球性問題中的角色。"
+  },
+  {
+    "filename": "2025-05-27-understanding-typescript-for-beginners.md",
+    "title": "掌握 TypeScript 的基礎",
+    "date": "2025-05-27T14:43:54.226Z",
+    "description": "TypeScript 是一種受歡迎的程式語言，為 JavaScript 添加了靜態類型檢查功能，提升了代碼的可靠性和可維護性。這篇文章將幫助入門者理解 TypeScript 的基本概念，並提供一些簡單的範例來展示其如何改善開發體驗。通過學習 TypeScript，開發者可以撰寫更具穩定性的程式碼，並在大型專案中獲得更好的開發效率。"
   }
 ]
