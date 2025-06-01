@@ -358,5 +358,11 @@
     "title": "掌握非同步 JavaScript",
     "date": "2025-06-01T14:40:55.002Z",
     "description": "JavaScript 在現代 Web 開發中扮演著至關重要的角色，尤其是在非同步編程上。掌握非同步 JavaScript 的概念與實作，不僅能提升開發效率，也為開發者創造更流暢的使用者體驗。本文將探索非同步 JavaScript 的基本概念、常見技術，以及應用場景，適合有一定基礎的開發者，希望深入理解這一重要技術。"
+  },
+  {
+    "filename": "2025-06-01-understanding-the-promise-in-javascript.md",
+    "title": "掌握 JavaScript 中的 Promise",
+    "date": "2025-06-01T23:40:14.833Z",
+    "description": "簡介段：   在 JavaScript 非同步編程中，Promise 是一個強大的工具，幫助開發者管理異步操作並優化程式的可讀性。本文將深入探討 Promise 的基本概念、其如何運作以及在實際開發中的應用，為入門者提供一個全面的學習指引。"
   }
 ]
