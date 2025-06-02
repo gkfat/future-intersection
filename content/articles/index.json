@@ -370,5 +370,11 @@
     "title": "擁抱現代網頁開發中的 TypeScript",
     "date": "2025-06-02T07:38:59.627Z",
     "description": "在現代網頁開發中，TypeScript 正逐漸成為開發者的首選語言之一。作為 JavaScript 的超集，TypeScript 提供了靜態類型檢查功能，增強了程式碼的可讀性和可維護性。對於尋求提高代碼可靠性和生產率的前端開發者來說，TypeScript 提供了一個強大的工具集。本文將探討 TypeScript 的優勢、最佳實踐，以及如何將其成功應用於現代網頁開發專案中。"
+  },
+  {
+    "filename": "2025-06-02-mastering-typescript-for-modern-web.md",
+    "title": "精通現代網頁的 TypeScript",
+    "date": "2025-06-02T14:44:35.519Z",
+    "description": "在現代網頁開發中，TypeScript 已成為開發者必備的強大工具。作為 JavaScript 的超集，TypeScript 提供了靜態類型系統，有助於在開發過程中減少錯誤和提高代碼的可讀性。本文將探討 TypeScript 在網頁開發中的應用，並提供實用的示例，幫助進階開發者在項目中有效運用這項技術。"
   }
 ]
