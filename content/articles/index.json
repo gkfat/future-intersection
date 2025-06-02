@@ -364,5 +364,11 @@
     "title": "掌握 JavaScript 中的 Promise",
     "date": "2025-06-01T23:40:14.833Z",
     "description": "簡介段：   在 JavaScript 非同步編程中，Promise 是一個強大的工具，幫助開發者管理異步操作並優化程式的可讀性。本文將深入探討 Promise 的基本概念、其如何運作以及在實際開發中的應用，為入門者提供一個全面的學習指引。"
+  },
+  {
+    "filename": "2025-06-02-embracing-typescript-in-modern-web-development.md",
+    "title": "擁抱現代網頁開發中的 TypeScript",
+    "date": "2025-06-02T07:38:59.627Z",
+    "description": "在現代網頁開發中，TypeScript 正逐漸成為開發者的首選語言之一。作為 JavaScript 的超集，TypeScript 提供了靜態類型檢查功能，增強了程式碼的可讀性和可維護性。對於尋求提高代碼可靠性和生產率的前端開發者來說，TypeScript 提供了一個強大的工具集。本文將探討 TypeScript 的優勢、最佳實踐，以及如何將其成功應用於現代網頁開發專案中。"
   }
 ]
