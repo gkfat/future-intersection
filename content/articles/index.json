@@ -400,5 +400,11 @@
     "title": "AI 對未來生活的影響",
     "date": "2025-06-03T14:47:04.862Z",
     "description": "簡介段：隨著人工智慧（AI）的快速發展，我們的日常生活正在發生前所未有的變化。從智能家居到智慧城市，AI 正在重新定義我們的工作、娛樂和社交方式。本文將深入探討 AI 如何影響未來的生活方式，並對可能的趨勢進行展望。"
+  },
+  {
+    "filename": "2025-06-04-embracing-javascript-promises.md",
+    "title": "擁抱 JavaScript Promises",
+    "date": "2025-06-04T07:38:44.858Z",
+    "description": "JavaScript 的非同步處理從來都不是件容易的事情，而 Promises 的出現大大改善了這一點。對於剛接觸 JavaScript 的入門者來說，理解和使用 Promises 是一項必備技能。本篇文章將帶領讀者探索 JavaScript Promises 的基本概念、應用範例，並提供實用的建議，幫助初學者更好地掌握這一強大的工具。"
   }
 ]
