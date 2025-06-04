@@ -408,6 +408,12 @@
     "description": "JavaScript 的非同步處理從來都不是件容易的事情，而 Promises 的出現大大改善了這一點。對於剛接觸 JavaScript 的入門者來說，理解和使用 Promises 是一項必備技能。本篇文章將帶領讀者探索 JavaScript Promises 的基本概念、應用範例，並提供實用的建議，幫助初學者更好地掌握這一強大的工具。"
   },
   {
+    "filename": "2025-06-04-javascript-and-environmental-sustainability.md",
+    "title": "JavaScript 與環境永續性",
+    "date": "2025-06-04T23:41:07.650Z",
+    "description": "在當前數位轉型的時代，JavaScript 不僅是前端開發的中流砥柱，更可能在環境永續性中扮演重要角色。本文將探討 JavaScript 如何通過提高應用效能、實現低能耗計算，以及促進環保意識，助力環境保護。適合進階開發者了解如何將技術專長應用於環境問題，讓開發不僅是技術突破，更是為地球未來負責的行動。"
+  },
+  {
     "filename": "2025-06-04-navigating-modern-web-development.md",
     "title": "現代網頁開發的導航",
     "date": "2025-06-04T15:05:52.270Z",
