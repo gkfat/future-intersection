@@ -478,5 +478,11 @@
     "title": "TypeScript 在現代網頁開發中的應用",
     "date": "2025-06-08T07:35:06.668Z",
     "description": "TypeScript 在現代網頁開發中變得越來越重要，成為許多開發者的首選。作為 JavaScript 的超集，TypeScript 提供了靜態類型檢查和其他強大功能，使其在大型項目中尤為有用。本文將探討 TypeScript 在現代網頁開發中的應用，並提供一些實用範例來提升讀者的理解。"
+  },
+  {
+    "filename": "2025-06-08-typescript-vs-javascript-developer-choice.md",
+    "title": "TypeScript vs JavaScript 開發者的選擇",
+    "date": "2025-06-08T14:39:05.094Z",
+    "description": "在前端開發的世界中，JavaScript 一直是不可或缺的技術，但隨著大型應用的開發需求增加，TypeScript 應運而生，為 JavaScript 提供了類型系統和更多語法功能。本文將深入探討 TypeScript 與 JavaScript 的區別，並幫助開發者決定在不同場景下的最佳選擇。"
   }
 ]
