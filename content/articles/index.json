@@ -490,5 +490,11 @@
     "title": "TypeScript vs JavaScript 開發者的選擇",
     "date": "2025-06-08T14:39:05.094Z",
     "description": "在前端開發的世界中，JavaScript 一直是不可或缺的技術，但隨著大型應用的開發需求增加，TypeScript 應運而生，為 JavaScript 提供了類型系統和更多語法功能。本文將深入探討 TypeScript 與 JavaScript 的區別，並幫助開發者決定在不同場景下的最佳選擇。"
+  },
+  {
+    "filename": "2025-06-09-mastering-modern-javascript-frameworks.md",
+    "title": "精通現代 JavaScript 框架",
+    "date": "2025-06-09T07:38:51.476Z",
+    "description": "在當代的網頁開發中，JavaScript 框架扮演著關鍵角色。無論是 React、Vue.js 還是 Angular，這些工具都在加速開發流程的同時，幫助開發者構建更具互動性和動態的網站。本篇文章將深入探討這些框架的核心特性，並提供實用的建議，幫助進階開發者在選擇和使用這些工具時做出更明智的決策。"
   }
 ]
