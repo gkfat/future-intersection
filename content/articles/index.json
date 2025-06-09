@@ -492,6 +492,12 @@
     "description": "在前端開發的世界中，JavaScript 一直是不可或缺的技術，但隨著大型應用的開發需求增加，TypeScript 應運而生，為 JavaScript 提供了類型系統和更多語法功能。本文將深入探討 TypeScript 與 JavaScript 的區別，並幫助開發者決定在不同場景下的最佳選擇。"
   },
   {
+    "filename": "2025-06-09-clean-code-principles.md",
+    "title": "實踐乾淨程式碼的原則",
+    "date": "2025-06-09T14:44:06.137Z",
+    "description": "簡介段：   在現代軟體開發中，乾淨的程式碼不僅僅是美觀的代名詞，更是提高程式碼可維護性和可讀性的核心。本文將探討如何實踐乾淨程式碼的原則，並深入了解它們對開發者的長期益處。無論你是初學者還是進階開發者，這些原則都能幫助你寫出更有效率且易於理解的程式碼。"
+  },
+  {
     "filename": "2025-06-09-mastering-modern-javascript-frameworks.md",
     "title": "精通現代 JavaScript 框架",
     "date": "2025-06-09T07:38:51.476Z",
