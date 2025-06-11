@@ -532,5 +532,11 @@
     "title": "精通 JavaScript 非同步模式",
     "date": "2025-06-11T07:38:10.890Z",
     "description": "簡介段：JavaScript 是一種強大且靈活的語言，其非同步功能使得開發者能夠創建高效的網頁應用程式。在這篇文章中，我們將深入探討 JavaScript 中的幾種非同步模式，包括回呼函數、Promise 和 async/await，這些技術不僅提升了程式的性能，還改善了程式的可讀性。這篇文章適合具有基礎 JavaScript 知識的開發者，幫助他們進一步掌握非同步程式設計的技巧。"
+  },
+  {
+    "filename": "2025-06-11-mastering-javascript-closures.md",
+    "title": "精通 JavaScript 閉包的奧秘",
+    "date": "2025-06-11T14:43:18.088Z",
+    "description": "JavaScript 閉包是強大的工具，能讓開發者創造出更靈活的程式碼結構。然而，對初學者來說，閉包的概念可能有些抽象。本篇文章將深入淺出地介紹閉包的核心原理，並通過範例程式碼幫助理解其實際應用，適合有基礎 JavaScript 知識的讀者。"
   }
 ]
