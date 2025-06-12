@@ -544,5 +544,11 @@
     "title": "React Hooks 精通指南",
     "date": "2025-06-11T23:42:08.096Z",
     "description": "在 React 開發中，Hooks 提供了一種更靈活和高效的方式來處理狀態和副作用。本文將深入探討 React Hooks 的使用，並提供實用的範例和最佳實踐。這篇文章適合對 React 開發已有一定經驗的開發者，以助於提升應用開發的能力。"
+  },
+  {
+    "filename": "2025-06-12-javascript-and-environmental-sustainability.md",
+    "title": "JavaScript 與環境永續性",
+    "date": "2025-06-12T07:38:08.966Z",
+    "description": "在現今科技快速發展的時代，JavaScript 不僅在網頁開發中扮演著重要角色，也影響著我們的生活方式和環境永續性。這篇文章針對 JavaScript 在實現環境永續性方面的潛力進行探討，讓入門者了解如何通過程式設計來促進環保和節約資源的實踐。"
   }
 ]
