@@ -552,6 +552,12 @@
     "description": "在現今科技快速發展的時代，JavaScript 不僅在網頁開發中扮演著重要角色，也影響著我們的生活方式和環境永續性。這篇文章針對 JavaScript 在實現環境永續性方面的潛力進行探討，讓入門者了解如何通過程式設計來促進環保和節約資源的實踐。"
   },
   {
+    "filename": "2025-06-12-mastering-javascript-closures.md",
+    "title": "掌握 JavaScript 閉包的藝術",
+    "date": "2025-06-12T23:40:57.794Z",
+    "description": "JavaScript 閉包是一種強大的編程概念，能夠提升代碼的靈活性與模組化。對於進階開發者而言，理解與掌握閉包，不僅是提升程式碼質量的關鍵，也是解決複雜問題的利器。本篇文章將深入探討 JavaScript 閉包的運作原理，並提供實際應用範例，幫助讀者在日常開發中靈活運用。"
+  },
+  {
     "filename": "2025-06-12-mastering-web-development.md",
     "title": "精通網頁開發的藝術",
     "date": "2025-06-12T14:44:08.486Z",
