@@ -660,6 +660,12 @@
     "description": "簡介段：   JavaScript 的閉包概念對於程式開發者來說是不可或缺的基礎技能。閉包不僅能夠讓我們有效地管理變數作用域，還能提升程式的模組化和封裝性。本文章旨在幫助入門者理解閉包的基本原理，並提供實際應用的範例，以便在日常開發中運用自如。"
   },
   {
+    "filename": "2025-06-18-mastering-nodejs-for-beginners.md",
+    "title": "初學者掌握 Node.js",
+    "date": "2025-06-18T23:43:07.157Z",
+    "description": "Node.js 是一個強大的 JavaScript 執行環境，讓開發者可以在伺服器端運行 JavaScript 程式碼。對於想要在全棧開發領域尋找機會的初學者而言，掌握 Node.js 是一個不可或缺的技能。本篇文章將為你介紹 Node.js 的基本概念、設定環境以及簡單的應用程式開發。"
+  },
+  {
     "filename": "2025-06-18-mastering-the-art-of-debugging.md",
     "title": "精通除錯的藝術",
     "date": "2025-06-18T14:44:43.696Z",
