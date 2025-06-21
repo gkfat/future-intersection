@@ -706,5 +706,11 @@
     "title": "精通模組化 JavaScript",
     "date": "2025-06-20T23:42:43.783Z",
     "description": "在現代網頁開發中，模組化設計已成為提升代碼可維護性和重用性的關鍵策略。本文將探討如何在 JavaScript 中實現模組化，從基本概念到實踐技術，並提供一些實用的範例。適合具備基本編程知識的進階者學習和應用。"
+  },
+  {
+    "filename": "2025-06-21-mastering-typescript-for-modern-development.md",
+    "title": "掌握 TypeScript 的現代開發",
+    "date": "2025-06-21T07:36:33.328Z",
+    "description": "TypeScript 作為 JavaScript 的超集，已成為現代前端開發的重要工具。它不僅提供了更強大的型別系統，還改善了程式碼的可維護性與可讀性。本篇文章將帶你深入了解 TypeScript 的優勢，並探討它如何在現代開發中發揮作用，適合有一定 JavaScript 基礎的開發者提升技能。"
   }
 ]
