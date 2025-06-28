@@ -840,6 +840,12 @@
     "description": "隨著人工智慧（AI）技術的迅速發展，網頁開發領域正迎來前所未有的變革。AI 不僅改變了開發的方式，還為開發者提供了新的工具和方法，讓網站變得更加智能和高效。本文將深入探討 AI 在網頁開發中的應用，包括其優勢、挑戰以及未來的發展趨勢。"
   },
   {
+    "filename": "2025-06-28-typescript-for-advanced-developers.md",
+    "title": "TypeScript 進階開發者指南",
+    "date": "2025-06-28T23:40:49.017Z",
+    "description": "簡介段：   TypeScript 是 JavaScript 的超集，為開發者提供更靈活的型別檢查與強大的工具支持。本文旨在探討 TypeScript 的進階特性，特別是泛型、裝飾器和模組化設計，這些功能能夠讓進階開發者更高效地組織和管理大型代碼庫，並提升程式碼的可維護性和可讀性。"
+  },
+  {
     "filename": "2025-06-28-understanding-typescript-interfaces.md",
     "title": "理解 TypeScript 介面",
     "date": "2025-06-28T07:36:08.430Z",
