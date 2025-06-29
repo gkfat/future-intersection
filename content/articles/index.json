@@ -852,6 +852,12 @@
     "description": "TypeScript 是 JavaScript 的超集，提供了靜態類型檢查，讓代碼更具可維護性。其中，介面是一個強大的工具，可以用來定義物件的形狀。本文旨在為入門者深入淺出地介紹 TypeScript 介面的基本概念，並透過範例來展示如何在實際開發中運用介面來提升代碼質量。"
   },
   {
+    "filename": "2025-06-29-embracing-nodejs-for-advanced-projects.md",
+    "title": "擁抱 Node.js 的高階專案",
+    "date": "2025-06-29T14:40:13.627Z",
+    "description": "Node.js 是當今 Web 開發的重要技術之一，其非同步和事件驅動的模型使其成為構建高效能應用程式的理想選擇。本文將探討如何利用 Node.js 來開發高階專案，包括掌握事件循環、使用高效能模組及提升專案安全性等。文章適合具備 Node.js 基礎的進階開發者，透過深入的技術要點，幫助他們更上一層樓。"
+  },
+  {
     "filename": "2025-06-29-tackling-developer-pain-points.md",
     "title": "開發者痛點解決方案",
     "date": "2025-06-29T07:36:23.978Z",
