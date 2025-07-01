@@ -892,5 +892,11 @@
     "title": "精通 JavaScript 生態系",
     "date": "2025-07-01T07:40:52.801Z",
     "description": "JavaScript 在過去數十年間迅速成長，成為網頁開發不可或缺的技術之一。隨著其生態系的擴展，學習與掌握 JavaScript 的不同方面，對於開發者而言變得至關重要。本篇文章將從不同角度探索 JavaScript 生態系，並幫助進階開發者深入理解這個強大的工具。"
+  },
+  {
+    "filename": "2025-07-01-mastering-javascript-promises.md",
+    "title": "精通 JavaScript 的 Promise",
+    "date": "2025-07-01T14:42:17.689Z",
+    "description": "在現代 JavaScript 開發中，非同步操作是不可或缺的一部分。Promise 作為一種處理非同步操作的方式，提供了比傳統回調函數更優雅的解決方案。本文將深入探討 Promise 的使用，從基礎概念到進階應用，幫助進階開發者更好地掌握這一強大的工具，以提升程式碼的可讀性和維護性。"
   }
 ]
