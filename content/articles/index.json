@@ -906,6 +906,12 @@
     "description": "在現代 JavaScript 開發中，非同步操作是不可或缺的一部分。Promise 作為一種處理非同步操作的方式，提供了比傳統回調函數更優雅的解決方案。本文將深入探討 Promise 的使用，從基礎概念到進階應用，幫助進階開發者更好地掌握這一強大的工具，以提升程式碼的可讀性和維護性。"
   },
   {
+    "filename": "2025-07-02-javascript-framework-evolution.md",
+    "title": "JavaScript 框架的演變",
+    "date": "2025-07-02T23:42:38.578Z",
+    "description": "JavaScript 框架的出現極大地改變了網頁開發的方式，從最初的 jQuery 到現今的 React、Vue 和 Angular，這些工具不斷演進，以提供更強大且高效的開發體驗。這篇文章將帶領讀者探討 JavaScript 框架的歷史演變、現狀以及未來趨勢，幫助入門者了解如何選擇合適的框架來提升開發效率。"
+  },
+  {
     "filename": "2025-07-02-mastering-web-development-tools.md",
     "title": "掌握網頁開發工具",
     "date": "2025-07-02T07:39:28.887Z",
