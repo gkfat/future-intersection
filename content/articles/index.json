@@ -958,5 +958,11 @@
     "title": "克服 JavaScript 開發中的常見挑戰",
     "date": "2025-07-04T07:40:14.313Z",
     "description": "JavaScript 是現代網站開發的核心語言，但在使用過程中開發者常會面臨各種挑戰。這篇文章面向進階開發者，探討 JavaScript 開發中常見的問題，並提供解決方案和實用技巧，讓開發者能更有效率地進行專案開發。"
+  },
+  {
+    "filename": "2025-07-05-mastering-javascript-async-patterns.md",
+    "title": "精通 JavaScript 非同步模式",
+    "date": "2025-07-05T07:36:20.014Z",
+    "description": "簡介：JavaScript 的非同步特性使其在現代網頁開發中變得非常重要。無論是處理用戶事件還是進行數據請求，非同步操作都能讓應用更高效地運作。本文將探索 JavaScript 中的非同步模式，為進階開發者提供深入的見解與實用範例，幫助您在複雜的開發環境中脫穎而出。"
   }
 ]
