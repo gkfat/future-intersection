@@ -960,6 +960,12 @@
     "description": "JavaScript 是現代網站開發的核心語言，但在使用過程中開發者常會面臨各種挑戰。這篇文章面向進階開發者，探討 JavaScript 開發中常見的問題，並提供解決方案和實用技巧，讓開發者能更有效率地進行專案開發。"
   },
   {
+    "filename": "2025-07-05-embracing-javascript-in-modern-web-development.md",
+    "title": "現代網頁開發中的 JavaScript",
+    "date": "2025-07-05T14:41:01.627Z",
+    "description": "簡介：JavaScript 是現代網頁開發的核心技術之一，其運用範圍不斷擴大。從簡單的互動效果到複雜的前端架構，JavaScript 的靈活性和強大功能使其成為開發者的必備技能。本文將探討 JavaScript 在現代網頁開發中的角色，適合入門者了解如何運用這項技術來加強其開發能力。"
+  },
+  {
     "filename": "2025-07-05-mastering-javascript-async-patterns.md",
     "title": "精通 JavaScript 非同步模式",
     "date": "2025-07-05T07:36:20.014Z",
