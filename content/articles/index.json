@@ -994,5 +994,11 @@
     "title": "掌握 JavaScript 框架的導航",
     "date": "2025-07-06T07:36:15.078Z",
     "description": "在當代網頁開發中，JavaScript 框架已成為不可或缺的工具。這些框架幫助開發者提高開發效率、增強功能並改善用戶體驗。本文將介紹 JavaScript 框架的基本概念、流行框架的簡介、以及如何選擇適合您專案的框架。這篇文章特別針對入門者，幫助他們在 JavaScript 框架的世界中駕輕就熟。"
+  },
+  {
+    "filename": "2025-07-07-mastering-typescript-generics.md",
+    "title": "精通 TypeScript 泛型的奧秘",
+    "date": "2025-07-07T07:40:22.113Z",
+    "description": "TypeScript 是 JavaScript 的超集，為開發者提供了強大的型別系統，其中泛型是一項重要特性。本文將探討 TypeScript 泛型的使用方法及其優勢，並透過實際範例展示如何在程式開發中靈活運用泛型。本文適合進階開發者，希望讀者能從中獲得啟發，加強對 TypeScript 的運用能力。"
   }
 ]
