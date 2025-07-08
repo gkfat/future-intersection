@@ -1014,6 +1014,12 @@
     "description": "TypeScript 是 JavaScript 的超集，為開發者提供了強大的型別系統，其中泛型是一項重要特性。本文將探討 TypeScript 泛型的使用方法及其優勢，並透過實際範例展示如何在程式開發中靈活運用泛型。本文適合進階開發者，希望讀者能從中獲得啟發，加強對 TypeScript 的運用能力。"
   },
   {
+    "filename": "2025-07-08-embracing-javascript-design-patterns.md",
+    "title": "掌握 JavaScript 設計模式",
+    "date": "2025-07-08T23:42:19.700Z",
+    "description": "在現代的網頁開發中，JavaScript 設計模式扮演著至關重要的角色。本文將深入探討如何利用這些模式來提高程式碼的可維護性和可讀性，並提升開發效率。無論是初學者還是中級開發者，理解並運用這些設計模式將為您的開發工作帶來極大的便利。"
+  },
+  {
     "filename": "2025-07-08-mastering-csharp-asynchronous-programming.md",
     "title": "掌握 C# 非同步編程",
     "date": "2025-07-08T07:40:21.687Z",
