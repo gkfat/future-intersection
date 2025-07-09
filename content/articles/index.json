@@ -1032,6 +1032,12 @@
     "description": "Java 設計模式是軟體開發中至關重要的工具，特別是對於進階開發者而言。這些模式提供了行之有效的解決方案，以應對常見的設計問題和挑戰。本篇文章將深入探討常用的 Java 設計模式，並提供一些實用的範例來幫助您在日常開發中靈活運用這些模式，進一步提升程式碼的可讀性和維護性。"
   },
   {
+    "filename": "2025-07-09-mastering-javascript-functions.md",
+    "title": "精通 JavaScript 函數",
+    "date": "2025-07-09T14:44:26.090Z",
+    "description": "在 JavaScript 程式設計中，函數是最基本且重要的組成部分之一。透過掌握函數，開發者能夠寫出更具可讀性和可維護性的程式碼，並提高程式的效率與靈活性。本文將帶領進階學習者深入探討 JavaScript 函數的機制與應用技巧。"
+  },
+  {
     "filename": "2025-07-09-mastering-react-hooks-for-intermediate-developers.md",
     "title": "React Hooks 進階指南",
     "date": "2025-07-09T07:40:38.265Z",
