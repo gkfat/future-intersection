@@ -1120,5 +1120,11 @@
     "title": "Node.js 新手指南",
     "date": "2025-07-13T07:39:15.720Z",
     "description": "Node.js 是現代網頁開發中不可或缺的工具，特別適合對 JavaScript 有基本了解的初學者。本文旨在為新手提供一個清晰的 Node.js 入門指南，介紹其基本概念、應用場景以及如何開始一個簡單的 Node.js 專案。透過本指南，讀者可以獲得啟發，進一步探索 Node.js 的潛力。"
+  },
+  {
+    "filename": "2025-07-14-javascript-modern-web-development.md",
+    "title": "現代網頁開發中的 JavaScript",
+    "date": "2025-07-14T07:42:28.564Z",
+    "description": "在現代網頁開發中，JavaScript 扮演著舉足輕重的角色。作為一種動態語言，它不僅支持簡單的網頁交互，還能支持複雜的應用程式和跨平台開發。本文將探討 JavaScript 在當前網頁開發中的應用，適合進階開發者了解如何運用 JavaScript 技術提升開發效率和效能。"
   }
 ]
