@@ -1140,6 +1140,12 @@
     "description": "隨著網頁技術的快速演進，TypeScript 作為 JavaScript 的超集，已成為現代網頁開發的重要工具。這篇文章將帶領進階讀者探討 TypeScript 的應用、最佳實踐及其在開發中的優勢，幫助開發者更有效地打造穩健的應用程式。"
   },
   {
+    "filename": "2025-07-15-enhancing-web-accessibility.md",
+    "title": "提升網站可及性的策略",
+    "date": "2025-07-15T14:45:15.602Z",
+    "description": "隨著互聯網的普及，確保網站對所有用戶都具有可及性變得越來越重要。從視覺障礙到行動不便，許多用戶可能面臨不同的挑戰。本文將探討幾種提升網站可及性的方法，幫助開發者創建更包容的網路環境。"
+  },
+  {
     "filename": "2025-07-15-overcoming-common-developer-challenges.md",
     "title": "克服開發者常見挑戰",
     "date": "2025-07-15T07:42:20.115Z",
