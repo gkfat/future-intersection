@@ -1212,6 +1212,12 @@
     "description": "在現代的網頁開發中，Node.js 以其高效能和可擴展性而聞名。然而，如何進一步提升 Node.js 的效能成為開發者的重要課題。本文將探討 Node.js 效能優化的關鍵技巧，為進階開發者提供實用的建議與範例，助其打造更為高效的應用程式。"
   },
   {
+    "filename": "2025-07-19-mastering-async-programming-in-javascript.md",
+    "title": "掌握 JavaScript 非同步編程",
+    "date": "2025-07-19T14:41:52.356Z",
+    "description": "簡介段：非同步編程是現代 JavaScript 開發中不可或缺的技能，能夠有效提高程式的效能與使用者體驗。在這篇文章中，我們將探討非同步編程的核心概念，包括 Promise、async/await，以幫助進階開發者在實際專案中靈活運用。"
+  },
+  {
     "filename": "2025-07-19-mastering-modular-javascript.md",
     "title": "掌握模組化 JavaScript 的藝術",
     "date": "2025-07-19T07:37:38.955Z",
