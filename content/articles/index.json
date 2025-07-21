@@ -1246,5 +1246,11 @@
     "title": "精通 TypeScript 泛型",
     "date": "2025-07-20T07:37:38.007Z",
     "description": "簡介： 泛型是 TypeScript 提供的一種強大特性，能夠讓程式碼更加靈活和安全。本文將深入探討泛型在 TypeScript 中的應用，並通過實例來演示如何利用泛型構建強類型的應用程式。適合進階開發者，這篇文章將幫助你更好地理解和運用泛型概念，提高程式碼的重用性和可讀性。"
+  },
+  {
+    "filename": "2025-07-21-embracing-typescript-for-modern-web-development.md",
+    "title": "擁抱現代網頁開發的 TypeScript",
+    "date": "2025-07-21T07:47:23.900Z",
+    "description": "在現代網頁開發中，TypeScript 已經成為開發者的強力工具。其靜態類型系統大幅提升了代碼的可靠性和可維護性，尤其是在大型項目中。本文將探討 TypeScript 的優勢及其在現代網頁開發中的應用，並通過簡單的範例展示其強大功能。本文適合進階者閱讀，旨在啟發開發者如何利用 TypeScript 改善開發流程。"
   }
 ]
