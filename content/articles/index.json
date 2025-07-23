@@ -1284,6 +1284,12 @@
     "description": "簡介段：現代 JavaScript 框架如 React、Vue.js 和 Angular 等，為網頁開發者提供了強大的工具，使網站開發更加高效。然而選擇合適的框架並掌握其核心功能，對於新手和進階開發者來說都是一項挑戰。本文將探討這些框架的特點、應用場景以及學習策略，幫助進階開發者更好地利用這些工具。"
   },
   {
+    "filename": "2025-07-23-exploring-javascript-modules.md",
+    "title": "探索 JavaScript 模組化",
+    "date": "2025-07-23T23:43:50.844Z",
+    "description": "在當代網頁開發中，JavaScript 模組化已成為提高程式碼可維護性和重用性的重要技術。透過模組化，我們能夠將程式碼分割成小型且獨立的功能模組，這不僅提升開發效率，還促進了團隊合作。本文將深入探討 JavaScript 模組化的基本概念、常用模式及其在實際開發中的應用。"
+  },
+  {
     "filename": "2025-07-23-mastering-javascript-security.md",
     "title": "精通 JavaScript 安全性",
     "date": "2025-07-23T07:42:54.915Z",
