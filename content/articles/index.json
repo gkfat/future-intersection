@@ -1282,5 +1282,11 @@
     "title": "握住現代 JavaScript 框架的關鍵",
     "date": "2025-07-22T23:43:43.015Z",
     "description": "簡介段：現代 JavaScript 框架如 React、Vue.js 和 Angular 等，為網頁開發者提供了強大的工具，使網站開發更加高效。然而選擇合適的框架並掌握其核心功能，對於新手和進階開發者來說都是一項挑戰。本文將探討這些框架的特點、應用場景以及學習策略，幫助進階開發者更好地利用這些工具。"
+  },
+  {
+    "filename": "2025-07-23-mastering-javascript-security.md",
+    "title": "精通 JavaScript 安全性",
+    "date": "2025-07-23T07:42:54.915Z",
+    "description": "JavaScript 是現代 Web 開發的核心，但其靈活性也為安全性帶來挑戰。對於想要進一步提升技能的開發者來說，理解 JavaScript 的常見安全問題及其解決方案至關重要。本篇文章將深入探討如何保護 JavaScript 應用程式免受常見威脅，為開發者提供實用的安全策略。"
   }
 ]
