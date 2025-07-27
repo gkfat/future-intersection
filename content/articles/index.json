@@ -1356,6 +1356,12 @@
     "description": "在現代網頁開發中，TypeScript 的泛型是一個強大且靈活的工具，讓開發者可以創建可重用和類型安全的程式碼。本文將探討泛型的基本概念、其應用場景及如何在實際開發中靈活運用這一強大功能，幫助進階開發者更好地掌握 TypeScript 泛型的使用。"
   },
   {
+    "filename": "2025-07-27-clean-code-practices-in-javascript.md",
+    "title": "JavaScript 乾淨程式碼實踐",
+    "date": "2025-07-27T23:43:57.653Z",
+    "description": "JavaScript 是現代網頁開發中的核心技術，然而寫出可維護、易讀的程式碼仍然是許多開發者面臨的挑戰。透過遵循乾淨程式碼的原則，我們可以提升程式碼的品質，使其更易於理解和維護。本篇文章將探討 JavaScript 中的乾淨程式碼實踐，提供具體的範例和建議，幫助進階開發者提升程式碼品質。"
+  },
+  {
     "filename": "2025-07-27-environmental-impact-of-ai.md",
     "title": "AI 的環境影響",
     "date": "2025-07-27T07:38:10.807Z",
