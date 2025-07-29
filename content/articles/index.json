@@ -1392,6 +1392,12 @@
     "description": "在現代網頁開發中，Node.js 已成為後端開發者的首選之一。作為一個非同步的 JavaScript 執行環境，Node.js 提供了強大的資料流（Streams）功能，讓開發者能夠高效地處理大型資料集。讓我們一起深入了解 Node.js 的資料流，並探索它如何提升應用效能。"
   },
   {
+    "filename": "2025-07-29-exploring-nextjs-evolution.md",
+    "title": "探索 Next.js 的演變",
+    "date": "2025-07-29T23:44:03.031Z",
+    "description": "Next.js 是目前最受歡迎的 React 框架之一，因其在服務端渲染、靜態網站生成等方面的優越性能，吸引了眾多開發者。本文旨在探討 Next.js 的演變歷史，從其基本功能到最新特性，並分析其在現代 Web 開發中的角色。針對進階開發者，我們將深入了解其技術革新，並提供實用的開發建議。"
+  },
+  {
     "filename": "2025-07-29-future-of-ai-in-web-development.md",
     "title": "AI 與網頁開發的未來",
     "date": "2025-07-29T14:50:56.737Z",
