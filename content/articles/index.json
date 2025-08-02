@@ -1464,6 +1464,12 @@
     "description": "簡介：在現代軟體開發中，TypeScript 正在迅速崛起，成為許多開發者的首選。作為 JavaScript 的超集，TypeScript 不僅保留了 JavaScript 的靈活性，還引入了靜態類型檢查等特性，提升了開發過程的安全性與效率。本文將深入探討 TypeScript 的多種優勢，並提供實際應用的例子，幫助入門者理解其在現代開發中的重要性。"
   },
   {
+    "filename": "2025-08-02-javascript-for-web-beginners.md",
+    "title": "初學者網頁開發指南",
+    "date": "2025-08-02T14:42:25.745Z",
+    "description": "簡介段：網頁開發是一個不斷演變的領域，初學者在入門時可能會面臨許多技術選擇與挑戰。JavaScript 作為網頁開發的核心技術之一，是進入這個領域的關鍵工具。本指南將針對初學者提供簡單易懂的 JavaScript 概念，幫助你更好地理解和運用這門語言。"
+  },
+  {
     "filename": "2025-08-02-mastering-webpack-in-modern-web-development.md",
     "title": "掌握 Webpack 在現代網頁開發中的應用",
     "date": "2025-08-02T07:38:02.484Z",
