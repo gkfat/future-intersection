@@ -1462,5 +1462,11 @@
     "title": "TypeScript 在現代開發中的優勢",
     "date": "2025-08-01T23:43:42.083Z",
     "description": "簡介：在現代軟體開發中，TypeScript 正在迅速崛起，成為許多開發者的首選。作為 JavaScript 的超集，TypeScript 不僅保留了 JavaScript 的靈活性，還引入了靜態類型檢查等特性，提升了開發過程的安全性與效率。本文將深入探討 TypeScript 的多種優勢，並提供實際應用的例子，幫助入門者理解其在現代開發中的重要性。"
+  },
+  {
+    "filename": "2025-08-02-mastering-webpack-in-modern-web-development.md",
+    "title": "掌握 Webpack 在現代網頁開發中的應用",
+    "date": "2025-08-02T07:38:02.484Z",
+    "description": "Webpack 是現代網頁開發中不可或缺的工具，許多開發者利用其強大功能來管理和打包應用程式的資源。這篇文章將深入探討 Webpack 的基本概念及其在現代開發中的應用，適合中級開發者以便提升其專業技能。"
   }
 ]
