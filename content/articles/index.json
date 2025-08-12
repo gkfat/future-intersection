@@ -1644,6 +1644,12 @@
     "description": "在網頁開發的領域中，安全性一直是開發者面臨的一項重大挑戰。隨著網路攻擊方式的不斷進化，開發者必須具備最新的安全知識與技能，以保護應用程式及用戶資料的安全。本篇文章將深入探討三大網頁開發中的安全挑戰，並針對進階開發者提出最佳實踐建議。"
   },
   {
+    "filename": "2025-08-12-mastering-javascript-promises.md",
+    "title": "掌握 JavaScript Promises 的奧秘",
+    "date": "2025-08-12T14:44:49.776Z",
+    "description": "簡介段：JavaScript Promises 是異步程式設計中的一個核心概念，為開發者提供了方便的方式來處理非同步操作。理解 Promises 的工作機制對於提升程式效率和可維護性至關重要。本文將從入門者的角度，探討 Promises 的基本原理、常見用法以及最佳實踐，幫助讀者深入掌握這一強大的工具。"
+  },
+  {
     "filename": "2025-08-12-mastering-modern-web-accessibility.md",
     "title": "掌握現代網頁可及性",
     "date": "2025-08-12T07:39:38.683Z",
