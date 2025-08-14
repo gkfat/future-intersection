@@ -1680,6 +1680,12 @@
     "description": "簡介段：Next.js 是現代 JavaScript 應用程式開發中逐漸受到歡迎的框架之一。它不僅提供了伺服器端渲染（SSR）和靜態網站生成（SSG）的能力，還融合了 React 的強大功能，使開發者能夠構建高效且可擴展的應用程式。在本文中，我們將探討 Next.js 的核心特性、學習如何利用這些特性提升開發效率，並分析其在現代網頁開發中的重要性。"
   },
   {
+    "filename": "2025-08-14-mastering-modern-web-development-with-typescript.md",
+    "title": "掌握 TypeScript 的現代網頁開發",
+    "date": "2025-08-14T14:44:19.911Z",
+    "description": "在現代網頁開發中，TypeScript 正逐漸成為主流選擇。它不僅為 JavaScript 增加了類型安全性，還促進了代碼的可讀性和可維護性。本文將深入探討如何在現代開發中使用 TypeScript 提升效能和生產力，並介紹一些實用的技巧和範例。"
+  },
+  {
     "filename": "2025-08-14-mastering-node-js-security.md",
     "title": "精通 Node.js 安全性",
     "date": "2025-08-14T07:39:54.818Z",
